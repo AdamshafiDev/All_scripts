@@ -2,7 +2,6 @@
 
 echo "my name is adamshafi"
 
-TIME=$(date +%s)
-echo "$$"
-
-echo "$TIME"
+TIME=$(date +%F)
+ID=$($$)
+echo $TIME
