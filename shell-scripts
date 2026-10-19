@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SERVERS = "${all.txt}"
+SERVERS = "${cat all.txt}"
 
 for i in "${all.txt[@]}" then
 
