@@ -2,7 +2,7 @@
 
 SERVERS = {"54.225.50.27" "54.172.52.108" "3.80.121.242"}
 
-for i in "${i[@]}" then
+for i in "${SERVERS[@]}" then
 
 
    do  
