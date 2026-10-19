@@ -1,8 +1,8 @@
 #!/bin/bash
 
-SERVERS = "${"54.225.50.27","54.172.52.108","3.80.121.242"}"
+SERVERS = "${all.txt}"
 
-for i in "${SERVERS[@]}" then
+for i in "${all.txt[@]}" then
 
 
    do  
