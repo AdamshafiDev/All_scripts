@@ -2,7 +2,7 @@
 
 SERVERS = {"54.225.50.27" "54.172.52.108" "3.80.121.242"}
 
-for i in "${SERVERS[@]}" then
+for i in "${SERVERS[@]}" 
 
 
    do  
@@ -11,7 +11,7 @@ for i in "${SERVERS[@]}" then
 
      if [$? -eq 0 ]; then
       echo "$i is up"
-       else
+     else
        echo "$i is down
     fi
  done   
